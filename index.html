@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Boxicons CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swipers CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Responsive Hospital Website using HTML, Sass, & JavaScript</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="h3" class="nav-logo">
+                <h3>DUNCAN</h3>
+            </a>
+
+            <ul id="nav-items">
+                <li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#specialists">Specialists</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#appointment" class="btn">Appointment</a></li>
+                </li>
+            </ul>
+
+            <button id="open-nav-btn"><i class="bx bx-menu"></i></button>
+            <button id="close-nav-btn"><i class="bx bx-x"></i></button>
+        </div>
+    </nav>
+
+    <!-- End of nav -->
+
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Complete Health Care Solutions For Everyone</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus nobis excepturi.
+                    Nostrum, iusto dolores.</p>
+                <a href="#appointment" class="btn">Make Appointment</a>
+            </div>
+            <div class="header-image">
+                <img src="./assets/header.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- End of header -->
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, eligendi.</p>
+
+        <div class="container">
+            <div class="article">
+                <i class="bx bx-book-content"></i>
+                <div>
+                    <h4>Online Booking</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut placeat et sequi temporibus
+                        reiciendis autem dignissimos, porro possimus voluptatem.</small>
+                </div>
+            </div>
+
+            <div class="article">
+                <i class="bx bx-trophy"></i>
+                <div>
+                    <h4>Qualified Doctors</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut placeat et sequi temporibus
+                        reiciendis autem dignissimos, porro possimus voluptatem.</small>
+                </div>
+            </div>
+
+            <div class="article">
+                <i class="bx bx-support"></i>
+                <div>
+                    <h4>Private Support</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut placeat et sequi temporibus
+                        reiciendis autem dignissimos, porro possimus voluptatem.</small>
+                </div>
+            </div>
+
+            <div class="article">
+                <i class="bx bx-donate-heart"></i>
+                <div>
+                    <h4>Well Cared</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut placeat et sequi temporibus
+                        reiciendis autem dignissimos, porro possimus voluptatem.</small>
+                </div>
+            </div>
+
+            <div class="article">
+                <i class="bx bx-first-aid"></i>
+                <div>
+                    <h4>Need Emergency</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut placeat et sequi temporibus
+                        reiciendis autem dignissimos, porro possimus voluptatem.</small>
+                </div>
+            </div>
+
+            <div class="article">
+                <i class="bx bxl-meta"></i>
+                <div>
+                    <h4>24 Hour Service</h4>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut placeat et sequi temporibus
+                        reiciendis autem dignissimos, porro possimus voluptatem.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of services -->
+
+    <section id="specialists">
+        <h2>Our Top Specialists</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nam cupiditate veniam blanditiis
+            voluptatum asperiores!</p>
+        <div class="container">
+            <article>
+                <div class="specialist-image">
+                    <img src="./assets/specialist1.jpg" alt="">
+                </div>
+                <div class="specialist-details">
+                    <h4>Dr. Kwadjo Nkansa</h4>
+                    <small>Surgery Specialist</small>
+                </div>
+                <div class="specialist-socials">
+                    <a href="https://linkedin.com" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+233" class="specialist-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+
+            <article>
+                <div class="specialist-image">
+                    <img src="./assets/specialist2.jpg" alt="">
+                </div>
+                <div class="specialist-details">
+                    <h4>Dr. Fella Makafui</h4>
+                    <small>Aesthetic Specialist</small>
+                </div>
+                <div class="specialist-socials">
+                    <a href="https://linkedin.com" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+233" class="specialist-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+
+            <article>
+                <div class="specialist-image">
+                    <img src="./assets/specialist3.jpg" alt="">
+                </div>
+                <div class="specialist-details">
+                    <h4>Dr. Liza Apedo</h4>
+                    <small>Orthopaedic Specialist</small>
+                </div>
+                <div class="specialist-socials">
+                    <a href="https://linkedin.com" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+233" class="specialist-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+
+            <article>
+                <div class="specialist-image">
+                    <img src="./assets/specialist4.jpg" alt="">
+                </div>
+                <div class="specialist-details">
+                    <h4>Dr. Abigail Brown</h4>
+                    <small>Cardiology Specialist</small>
+                </div>
+                <div class="specialist-socials">
+                    <a href="https://linkedin.com" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+233" class="specialist-whatsapp" target="_blank"><i
+                        class="bx bxl-whatsapp"></i></a>
+            </article>
+        </div>
+    </section>
+
+    <!-- End of specialists -->
+
+    <section id="testimonials" class="swiper mySwiper">
+        <h2>What Our Patients Say</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis modi incidunt voluptatem voluptate
+            reiciendis nesciunt facere in culpa animi placeat.</p>
+        <div class="swiper-wrapper">
+            <article class="swiper-slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi culpa fugiat id quisquam cum
+                    laborum quam iste ab eum autem.</p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar1.jpg" alt="Patient One">
+                    </div>
+                    <div class="patient-details">
+                        <h5>Nana Ama McBrown</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi culpa fugiat id quisquam cum
+                    laborum quam iste ab eum autem.</p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar2.jpg" alt="Patient Two">
+                    </div>
+                    <div class="patient-details">
+                        <h5>John Dumelo</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi culpa fugiat id quisquam cum
+                    laborum quam iste ab eum autem.</p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar3.jpg" alt="Patient Three">
+                    </div>
+                    <div class="patient-details">
+                        <h5>Adam Quist</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi culpa fugiat id quisquam cum
+                    laborum quam iste ab eum autem.</p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar4.jpg" alt="Patient Four">
+                    </div>
+                    <div class="patient-details">
+                        <h5>Chantelle Smith</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi culpa fugiat id quisquam cum
+                    laborum quam iste ab eum autem.</p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar5.jpg" alt="Patient Five">
+                    </div>
+                    <div class="patient-details">
+                        <h5>Michaela Miller</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi culpa fugiat id quisquam cum
+                    laborum quam iste ab eum autem.</p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar6.jpg" alt="Patient Six">
+                    </div>
+                    <div class="patient-details">
+                        <h5>Jennifer Wilson</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+
+            <article class="swiper-slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi culpa fugiat id quisquam cum
+                    laborum quam iste ab eum autem.</p>
+                <div class="patient">
+                    <div class="avatar">
+                        <img src="./assets/avatar7.jpg" alt="Patient Seven">
+                    </div>
+                    <div class="patient-details">
+                        <h5>Roberta Johnson</h5>
+                        <small>Patient</small>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- End of testimonials -->
+
+    <section id="appointment">
+        <div class="container">
+            <div class="info">
+                <h2>Get An Appointment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, libero.</p>
+                <article>
+                    <div class="info-icon">
+                        <i class="bx bx-user"></i>
+                    </div>
+                    <div>
+                        <h4>Experience Doctors</h4>
+                        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ipsam molestiae
+                            doloremque blanditiis, sunt expedita magnam aperiam ullam eveniet placeat recusandae earum
+                            incidunt dolorem autem!</small>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="info-icon">
+                        <i class="bx bx-reflect-horizontal"></i>
+                    </div>
+                    <div>
+                        <h4>Advanced Technology</h4>
+                        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ipsam molestiae
+                            doloremque blanditiis, sunt expedita magnam aperiam ullam eveniet placeat recusandae earum
+                            incidunt dolorem autem!</small>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="info-icon">
+                        <i class="bx bx-first-aid"></i>
+                    </div>
+                    <div>
+                        <h4>Emergency Care</h4>
+                        <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ipsam molestiae
+                            doloremque blanditiis, sunt expedita magnam aperiam ullam eveniet placeat recusandae earum
+                            incidunt dolorem autem!</small>
+                    </div>
+                </article>
+            </div>
+            <form action="https://formspree.io/f/mjvnnwkp" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Your Name" name="Name" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" placeholder="Enter Your Phone Number" name="Phone" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" name="Date" id="date" placeholder="Choose A Date" required>
+                </div>
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <select name="Department" id="department" required>
+                        <option value="Department One">Department One</option>
+                        <option value="Department Two">Department Two</option>
+                        <option value="Department Three">Department Three</option>
+                        <option value="Department Four">Department Four</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="doctor">Doctor</label>
+                    <select name="Doctor" id="doctor" required>
+                        <option value="Doctor One">Doctor One</option>
+                        <option value="Doctor Two">Doctor Two</option>
+                        <option value="Doctor Three">Doctor Three</option>
+                        <option value="Doctor Four">Doctor Four</option>
+                        <option value="Doctor Five">Doctor Five</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="Added Message" id="message" rows="6" placeholder="Add a message"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" value="Submit Request">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- End of appointment -->
+
+    <footer>
+        <div class="container">
+            <article>
+                <a href="#" class="footer-logo">
+                    <h3>DUNCAN</h3>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laudantium.</p>
+                <div>
+                    <i class="bxs bxs-phone"></i>
+                    <small>+233555555</small>
+                </div>
+                <div>
+                    <i class="bx bx-mail-send"></i>
+                    <small>support@duncan.com</small>
+                </div>
+            </article>
+
+            <article>
+                <h3>Support</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Purchasing Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Career</a>
+            </article>
+
+            <article>
+                <h3>Permalinks</h3>
+                <a href="#">Home</a>
+                <a href="#services">Services</a>
+                <a href="#specialists">Specialists</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#appointment">Appointment</a>
+                <button class="btn-primary">Get Appointment</button>
+            </article>
+
+            <article>
+                <h3>Contact Us</h3>
+                <p>Press</p>
+                <p>FAQs</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </article>
+        </div>
+
+        <div class="copyright">
+            <small>&copy; Copyright DUNCAN. All Rights Reserved.</small>
+        </div>
+    </footer>
+
+    <!-- SwiperJs -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
